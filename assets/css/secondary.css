@@ -1,0 +1,49 @@
+/* **********************************************
+ *
+ * Description: Secondary CSS file for all added styles that were not part of the initial template
+ * Author     : Sebastien Ollquist-Cartier © 2021
+ *
+ * ******************************************** */
+
+/* Even positioned letters */
+.wizz span {
+    color: #cc2788;
+}
+
+/* Odd positioned letters */
+.wizz span:nth-child(2n+1) {
+    color: #a7238b;
+}
+
+.wrapper.style1.routes-hu {
+    background-image:
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url('../../images/budapest.webp');
+    background-size: cover;
+    background-position: center center;
+}
+
+.wrapper.style1.routes-uk {
+    background-image:
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url('../../images/london.webp');
+    background-size: cover;
+    background-position: center center;
+}
+
+.wrapper.style1.routes-uae {
+    background-image:
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url('../../images/abu-dhabi.webp');
+    background-size: cover;
+    background-position: center center;
+}
